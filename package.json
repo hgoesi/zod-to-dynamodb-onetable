@@ -1,5 +1,5 @@
 {
-  "name": "zod-to-dynamodb-onetable",
+  "name": "@hgoesi/zod-to-dynamodb-onetable",
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
@@ -40,6 +40,9 @@
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
